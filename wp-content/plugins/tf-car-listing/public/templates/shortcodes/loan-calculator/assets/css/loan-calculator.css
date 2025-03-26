@@ -1,0 +1,118 @@
+/* Loan Calculator */
+
+.loan-calculator-form label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.loan-calculator-form .group-calculator {
+    margin-top: 11px;
+    margin-bottom: 31px;
+    max-width: 300px;
+}
+
+.loan-calculator-form #btn_loan_calculate {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    border-radius: 14px;
+    padding: 15px 50px;
+    min-width: 420px;
+    text-align: center;
+    text-transform: unset;
+}
+
+.loan-calculator-form .group-calculator .list-total:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.loan-calculator-form .group-calculator.active #down-payment-value::after,
+.loan-calculator-form .group-calculator.active #monthly-payment-value::after {
+    content: attr(data-sign-currency);
+    vertical-align: baseline;
+    margin-left: 3px;
+}
+
+.loan-calculator-form label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.64px;
+    color: #24272C;    
+    margin-bottom: 12px;
+}
+
+.loan-calculator-form input[type="text"],
+.loan-calculator-form input[type="number"],
+.loan-calculator-form .nice-select {
+    border-radius: 16px;
+    border: 1px solid #EDEDED;
+    background: #FFF;
+    padding: 14px 16px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #24272C;
+    margin-bottom: 19px;
+}
+
+.loan-calculator-form input[type="text"]::placeholder,
+.loan-calculator-form input[type="number"]::placeholder {
+    color: #696665;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.loan-calculator-form .form-group {
+    margin-bottom: 15px;
+}
+
+.loan-calculator-form .form-group.btn-group {
+    margin-bottom: 0px;
+}
+
+.loan-calculator-form .group-calculator .list-total {
+    display: flex;
+    align-items: baseline;
+    font-size: 16px;
+    font-weight: 500;
+    color: #24272C;
+    justify-content: space-between;
+}
+
+.loan-calculator-form .group-calculator .list-total.payment-value {
+    color: var(--theme-primary-color);
+}
+
+.loan-calculator-form .form-group .error {
+    color: var(--theme-primary-color);
+    font-size: 15px;
+}
+
+.loan-sc-home .loan-calculator-form input[type="text"],
+.loan-sc-home .loan-calculator-form input[type="number"],
+.loan-sc-home .loan-calculator-form .nice-select {
+    margin-bottom: 28px;
+}
+
+.loan-sc-home .loan-calculator-form .group-calculator {
+    margin-top: 4px;
+}
+
+.loan-sc-home .loan-calculator-form .form-group.btn-group {
+    display: block;
+}
+
+.loan-sc-home .loan-calculator-form #btn_loan_calculate {
+    width: 100%;
+    display: block;
+    min-width: unset;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .loan-calculator-form #btn_loan_calculate {
+        min-width: 100%;
+    }
+}

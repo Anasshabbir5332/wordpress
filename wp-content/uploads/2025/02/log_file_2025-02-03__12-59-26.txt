@@ -1,0 +1,133 @@
+
+---Downloaded files---
+The import files for: Import Demo Data were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://localhost/wordpress
+Data file = D:\laragon\www\wordpress/wp-content/uploads/2025/02/demo-content-import-file_2025-02-03__12-59-26.xml
+Widget file = D:\laragon\www\wordpress/wp-content/uploads/2025/02/demo-widgets-import-file_2025-02-03__12-59-26.json
+Customizer file = D:\laragon\www\wordpress/wp-content/uploads/2025/02/demo-customizer-import-file_2025-02-03__12-59-26.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar Blog : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer Widget Area 1 : 
+
+Navigation Menu - About Auto Decar - Imported
+
+Footer Widget Area 2 : 
+
+Navigation Menu - Popular used car - Imported
+
+Footer Widget Area 3 : 
+
+Navigation Menu - Other - Imported
+
+Footer Widget Area 4 : 
+
+Block - No Title - Imported
+
+Sidebar Single Dealer : 
+
+Dealer Contact Single Dealer - No Title - Imported
+Dealer Location Widget - No Title - Imported
+Listing Sidebar Widget - Recommended - Imported
+
+Sidebar Single Listing : 
+
+Dealer Contact Single Listing - No Title - Imported
+Listing Sidebar Widget - Recommended Used Cars - Imported
+
+Sidebar Archive Listing : 
+
+Block - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
